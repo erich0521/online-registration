@@ -1,0 +1,136 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/***********************
+    Navbar
+***********************/
+
+nav{
+    background: #ffffff!important;
+    box-shadow: 1px 1px 2px #4444;
+}
+nav .navbar-brand{
+    color: var( --bs-yellow)!important;
+}
+.navbar-nav .nav-link{
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-toggler{
+    outline: none;
+    padding: none;
+}
+.lags{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 80px;
+}
+.banner{
+    width: 100%;
+    height: 210px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(lshs_bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.banner{
+    font-size: 70px;
+    padding-top: 60px;
+    padding-right: 15px;
+    color: #1e1e4b!important;
+}
+.text-primary{
+    color: #ffc107!important;
+}
+/* Button style */
+.btn {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    border-radius: 0;
+    font-weight: 500;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+    overflow: hidden;
+  }
+  .bg-primary{
+    background-color: #4abc28!important;
+  }
+  .btn-primary {
+    background: #4abc28;
+    /* color: #fff; */
+    color: rgb(54, 54, 54);
+  }
+  .btn-primary::before {
+  background: #80ff3b;
+}
+
+.btn-primary:active {
+  background: #ffbc3b !important;
+  color: #ffbc3b;
+}
+.list-styled li::before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #8fff6d;
+    left: -25px;
+    top: 5px;
+}
+:before {
+    box-sizing: border-box;
+}
+.list-styled {
+    padding-left: 25px;
+  }
+  
+  .list-styled li {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .list-styled li::before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #448431;
+    left: -25px;
+    top: 5px; 
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 25px;
+    font-size: 18px;
+  }
+  a {
+    color: #1e1e4b;
+  }
+.strong{
+    font-weight: bold;
+}
+
+p, .paragraph {
+    font-weight: 400;
+    color: #1e1e4b;
+    font-size: 15px;
+    line-height: 1.9;
+    font-family: "Poppins", sans-serif;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.footer{
+  height: auto;
+  width: 103%;
+}
